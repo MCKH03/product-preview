@@ -62,7 +62,13 @@ body {
 }
 
 
+/* By using this piece of code, you can align prices vertically */
 
+.price-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 .mobile-img {
